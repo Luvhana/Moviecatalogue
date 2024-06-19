@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 70px; /* adjust this value to match the height of your navbar */
+  }
+
+.nav-link:hover{
+    color: #001858;
+}
+
+
+  .heading{
+    /* margin-left: 75px; */
+    margin: 0;
+    flex-grow: 1;
+  } 
+
+  /* button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  } */
+
+  div.container{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  section.container{
+    
+      /* border: solid black 0.1rem; */
+      margin: 10px;
+      display: grid;
+      grid-gap: 1.5rem;
+      /* grid-template-columns: repeat(10, 1fr); */
+      grid-template-rows:auto;
+      height: auto;
+      width: calc(100vw - 2rem);
+      text-align: center;
+      padding-bottom: 50px;
+      grid-auto-rows: 300px;
+  
+      /* padding-bottom: 20px;
+      padding-top: 50px; */
+  }
+  
+
+  .flexbox-container{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 35px;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* make sure it's on top of other elements */
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine,
+  .ten{
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      width: 200px;
+      border-radius: 10px;
+  }
+
+  .one{
+    background-image: url('../assets/bridgerton.jpeg');
+  }
+
+  .two{
+    background-image: url(../assets/money\ heist.jpg);
+  }
+
+  .three{
+    background-image: url(../assets/never-have-i-ever-poster.jpg);
+  }
+  
+  .four{
+    background-image: url(../assets/friendss.jpg);
+  }
+  
+  .five{
+    background-image: url(../assets/gameofthrones.jpeg);
+  }
+
+  .six{
+    background-image: url(../assets/heeramandi.jpg);
+  }
+
+  .seven{
+    background-image: url(../assets/manifest.jpeg);
+  }
+
+  .eight{
+    background-image: url(../assets/stranger\ thingss.jpg);
+  }
+
+  .nine{
+    background-image: url(../assets/queens\ gambit.jpeg);
+  }
+
+  .ten{
+    background-image: url(../assets/vampire\ diaries.jpg);
+  }
+
+
+  body{
+    background-color:#f9f4ef;
+  }
+
+  .headingid2{
+    margin-left: 90px;
+   
+  } 
+
+  div.containerid2{
+    display:flex;
+    align-items: center;
+  }
+
+  section.containerid2{
+    margin: 10px;
+    display: grid;
+    grid-gap: 1.5rem;
+    /* grid-template-columns: repeat(10, 1fr); */
+    grid-template-rows:auto;
+    height: auto;
+    width: calc(100vw - 2rem);
+    text-align: center;
+    padding-bottom: 50px;
+    grid-auto-rows: 300px;
+  }
+
+ .flexbox-container-id2{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 35px;
+    justify-content: space-between;
+ }
+
+ .one-id2,
+  .two-id2,
+  .three-id2,
+  .four-id2,
+  .five-id2,
+  .six-id2,
+  .seven-id2,
+  .eight-id2,
+  .nine-id2,
+  .ten-id2{
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      width: 200px;
+      border-radius: 10px;
+  }
+
+  .one-id2{
+    background-image: url(../assets/hometownchachacha.jpeg);
+  }
+
+  .two-id2{
+    background-image: url(../assets/alchemyofsouls.jpeg);
+  }
+
+  .three-id2{
+    background-image: url(../assets/twinkling\ watermelon.jpeg);
+  }
+
+  .four-id2{
+    background-image: url(../assets/legendofthebluesea.jpeg);
+  }
+
+  .five-id2{
+    background-image: url(../assets/crashlandingonyou.jpg);
+  }
+
+  .six-id2{
+    background-image: url(../assets/stronggirl.jpeg);
+  }
+
+  .seven-id2{
+    background-image: url(../assets/atypical\ family.jpeg);
+  }
+
+  .eight-id2{
+    background-image: url(../assets/wtwoworlds.jpeg);
+  }
+
+  .nine-id2{
+    background-image: url(../assets/reply1998.jpg);
+  }
+
+  .ten-id2{
+    background-image: url(../assets/all-of-us-are-dead.jpeg);
+  }
+

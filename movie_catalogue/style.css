@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link:hover{
+    color: #001858;
+}
+.carousel {
+    height: calc(100vh - 58px);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+
+  .heading{
+    /* margin-left: 75px; */
+    margin: 0;
+    flex-grow: 1;
+  } 
+
+  /* button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  } */
+
+  div.container{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  section.container{
+    
+      /* border: solid black 0.1rem; */
+      margin: 10px;
+      display: grid;
+      grid-gap: 1.5rem;
+      /* grid-template-columns: repeat(6, 1fr); */
+      grid-template-rows:auto;
+      height: calc(100vh - 3rem);
+      width: calc(100vw - 2rem);
+      text-align: center;
+      padding-bottom: 50px;
+      grid-auto-rows: 300px;
+  
+      /* padding-bottom: 20px;
+      padding-top: 50px; */
+  }
+  
+
+  .flexbox-container{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 35px;
+    justify-content: space-between;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine,
+  .ten,
+  .eleven,
+  .twelfth{
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      width: 200px;
+      border-radius: 5px;
+  }
+
+  .one{
+    background-image: url('./assets/to\ all\ the\ boys.jpeg');
+  }
+
+  .two{
+    background-image: url(./assets/20th\ century\ girl.jpeg);
+  }
+
+  .three{
+    background-image: url(./assets/me\ before\ you.jpg);
+  }
+  
+  .four{
+    background-image: url(./assets/The_Idea_of_You.jpg);
+  }
+  
+  .five{
+    background-image: url(./assets/la\ la\ land.jpeg);
+  }
+
+  .six{
+    background-image: url(./assets/joker.jpg);
+  }
+
+  .seven{
+    background-image: url(./assets/One_Million_Yen_Girl_poster.jpeg);
+  }
+
+  .eight{
+    background-image: url(./assets/Yeh_jawani_hai_deewani.jpg);
+  }
+
+  .nine{
+    background-image: url(./assets/Kingkong.jpg);
+  }
+
+  .ten{
+    background-image: url(./assets/a\ silent\ voice.jpg);
+  }
+
+  .eleven{
+    background-image: url(./assets/The_Kissing_Booth_3.jpg);
+  }
+
+  .twelfth{
+    background-image: url(./assets/TalkToMe2022poster.jpg);
+  }
+
+  body{
+    background-color:#f9f4ef;
+  }
+
+  
